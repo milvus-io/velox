@@ -34,8 +34,8 @@ target_link_libraries(
   velox_common_base
   ${gflags_LIBRARIES}
   glog::glog
-  gtest
-  gtest_main
+  GTest::gtest
+  GTest::gtest_main
   pthread)
 
 add_executable(velox_memcpy_meter Memcpy.cpp)
