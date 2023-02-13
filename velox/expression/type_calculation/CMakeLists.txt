@@ -11,7 +11,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+include(${CMAKE_ROOT}/Modules/FindBISON.cmake)
+include(${CMAKE_ROOT}/Modules/FindFLEX.cmake)
 bison_target(
   TypeCalculationParser TypeCalculation.yy
   ${CMAKE_CURRENT_BINARY_DIR}/TypeCalculation.yy.cc

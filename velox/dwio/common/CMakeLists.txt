@@ -63,5 +63,6 @@ target_link_libraries(
   velox_expression
   velox_memory
   Boost::regex
+  protobuf::protobuf
   ${FOLLY_WITH_DEPENDENCIES}
   glog::glog)
