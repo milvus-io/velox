@@ -63,7 +63,7 @@ class VeloxConan(ConanFile):
 
     def requirements(self):
         self.requires("folly/2022.10.31.00@milvus/dev")
-        self.requires("boost/1.80.0")
+        self.requires("boost/1.81.0")
         self.requires("bzip2/1.0.8")
         self.requires("double-conversion/3.2.1")
         self.requires("xsimd/9.0.1")
@@ -79,8 +79,8 @@ class VeloxConan(ConanFile):
         self.requires("re2/20220601")
         self.requires("libsodium/cci.20220430")
         self.requires("openssl/1.1.1q")
-        self.requires("xz_utils/5.2.5")
-        self.requires("protobuf/3.21.9")
+        self.requires("xz_utils/5.4.0")
+        self.requires("protobuf/3.21.4")
         self.requires("flex/2.6.4")
 
     @property
