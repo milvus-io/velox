@@ -62,7 +62,7 @@ class VeloxConan(ConanFile):
                 pass
 
     def requirements(self):
-        self.requires("folly/2022.10.31.00@milvus/dev")
+        self.requires("folly/2023.02.24@milvus/dev")
         self.requires("boost/1.81.0")
         self.requires("bzip2/1.0.8")
         self.requires("double-conversion/3.2.1")
